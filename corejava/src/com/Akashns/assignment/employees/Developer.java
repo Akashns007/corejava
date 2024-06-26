@@ -1,18 +1,18 @@
 package com.Akashns.assignment.employees;
-
+//Developer is inheriting the Employee class
 public class Developer extends Employee{
-	
+	//private objects
 	private float Experience;
 	private String coreLang;
 	private String Domain;
 	
-	
+	//tostringas
 	@Override
 	public String toString() {
 		return "Developer [Name=" + Name + ", EmployeeID=" + empId + ", Salary=" + Salary + ", Experience=" + Experience + ", coreLang=" + coreLang + ", Domain=" + Domain + "]";
 	}
 
-
+	//getters and setters
 	public float getExperience() {
 		return Experience;
 	}

@@ -9,7 +9,6 @@ public class AssignmentMain {
 		util.project_manager("jack", "CI005" ,50000, 20, 5, "Hr");
 		
 		util.project_developers("WADE", "CI007", 40000, 10, "python", "CYBER SECURITY");		
-		
 	}
 
 }
