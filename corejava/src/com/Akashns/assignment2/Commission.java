@@ -10,7 +10,7 @@ public class Commission {
 	private int SalesAmount;
 	private double Commission;
 	
-	public void emp_Details() {
+	public void empDetails() {
 		//taking inputs using Scanner
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Name: ");
@@ -24,7 +24,7 @@ public class Commission {
 		sc.close();
 	}
 	
-	public double calc_commission() {
+	public double calcCommission() {
 		// calculating commission
 		if (SalesAmount >= 100000) {
 			Commission = SalesAmount + (SalesAmount * 0.1);
@@ -38,6 +38,7 @@ public class Commission {
 		else {
 			Commission = 0;
 		}
+		System.out.println("Commission: "+Commission);
 		return Commission; // return commission
 		
 	}
