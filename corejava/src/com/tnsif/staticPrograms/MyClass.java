@@ -5,6 +5,7 @@ public class MyClass {
 	private int section;
 	static int srNo;
 	
+	
 	static {
 		System.out.println("-----static block------");	
 		srNo = 1000;
