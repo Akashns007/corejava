@@ -13,7 +13,7 @@ public abstract class TaxPayer {
 		this.salary = salary;
 	}
 	public void display() {
-		System.out.println("then tax payed is: " + salary);	
+		System.out.println("then tax payed is: " + calTax());	
 	}
 
 
