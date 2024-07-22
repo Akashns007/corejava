@@ -27,12 +27,13 @@ public class ArrayListDemo {
 		System.out.println("The elements of array are\n"+ob);
 		Collections.sort(ob);
 		System.out.println("The elements of array are\n"+ob);
-		Iterator<String> i = ob.iterator();
-		while(i.hasNext()) {
-			String nm = i.next();//used for copying the current element
-			ob.remove(0);
-			System.out.println(nm);
-		}
+//		Iterator<String> i = ob.iterator();
+//		while(i.hasNext()) {
+//			String nm = i.next();//used for copying the current element
+//			ob.remove(0);
+//			System.out.println(nm);
+//		}
+		ob.forEach(e -> System.out.println(e));
 		
 	}
 
